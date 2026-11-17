@@ -24,6 +24,7 @@ export const stack: { group: L<string>; items: Tech[] }[] = [
       { name: 'HTML5', icon: 'devicon-html5-plain' },
       { name: 'CSS3', icon: 'devicon-css3-plain' },
       { name: 'Tailwind CSS', icon: 'devicon-tailwindcss-original' },
+      { name: 'Bootstrap', icon: 'devicon-bootstrap-plain' },
     ],
   },
   {
@@ -33,6 +34,9 @@ export const stack: { group: L<string>; items: Tech[] }[] = [
       { name: 'Spring Boot', icon: 'devicon-spring-original' },
       { name: 'Node.js', icon: 'devicon-nodejs-plain' },
       { name: 'Express.js', icon: 'devicon-express-original', mono: true },
+      { name: 'Python', icon: 'devicon-python-plain' },
+      { name: 'Django', icon: 'devicon-django-plain', mono: true },
+      { name: 'Flask', icon: 'devicon-flask-original', mono: true },
       { name: 'REST APIs' },
     ],
   },
@@ -41,17 +45,20 @@ export const stack: { group: L<string>; items: Tech[] }[] = [
     items: [
       { name: 'PostgreSQL', icon: 'devicon-postgresql-plain' },
       { name: 'MySQL', icon: 'devicon-mysql-plain' },
+      { name: 'MongoDB', icon: 'devicon-mongodb-plain' },
       { name: 'SQL' },
       { name: 'Supabase', icon: 'devicon-supabase-plain' },
     ],
   },
   {
-    group: { es: 'Herramientas', en: 'Tools' },
+    group: { es: 'Herramientas y Cloud', en: 'Tools & Cloud' },
     items: [
       { name: 'Git', icon: 'devicon-git-plain' },
       { name: 'GitHub', icon: 'devicon-github-original', mono: true },
-      { name: 'Postman', icon: 'devicon-postman-plain' },
       { name: 'Docker', icon: 'devicon-docker-plain' },
+      { name: 'Kubernetes', icon: 'devicon-kubernetes-plain' },
+      { name: 'OpenShift', icon: 'devicon-redhat-plain' },
+      { name: 'Postman', icon: 'devicon-postman-plain' },
       { name: 'Vercel', icon: 'devicon-vercel-original', mono: true },
       { name: 'Render' },
       { name: 'VS Code', icon: 'devicon-vscode-plain' },
@@ -63,13 +70,10 @@ export const extra: Tech[] = [
   { name: 'C#', icon: 'devicon-csharp-plain' },
   { name: 'ASP.NET', icon: 'devicon-dotnetcore-plain' },
   { name: 'Visual Basic', icon: 'devicon-visualbasic-plain' },
-  { name: 'Python', icon: 'devicon-python-plain' },
-  { name: 'Django', icon: 'devicon-django-plain', mono: true },
-  { name: 'Firebase', icon: 'devicon-firebase-plain' },
-  { name: 'Google Cloud', icon: 'devicon-googlecloud-plain' },
   { name: 'Angular', icon: 'devicon-angularjs-plain' },
   { name: 'SQL Server', icon: 'devicon-microsoftsqlserver-plain' },
-  { name: 'MongoDB', icon: 'devicon-mongodb-plain' }, // <-- Agregado aquí
+  { name: 'Firebase', icon: 'devicon-firebase-plain' },
+  { name: 'Google Cloud', icon: 'devicon-googlecloud-plain' },
   { name: 'CI/CD' },
 ]
 
@@ -186,7 +190,7 @@ export const experience: { role: L<string>; org: string; period: string; points:
 
 export const certs = [
   { name: 'IBM Java Developer', org: 'IBM / Coursera', year: '2026' },
-  { name: 'IBM Full Stack Software Developer', org: 'IBM Skills Network / Coursera', year: '2026' },
+  { name: 'IBM Full Stack Software Developer', org: 'IBM / Coursera', year: '2026' },
   { name: 'Google Cloud Digital Leader Training', org: 'Google Cloud / Coursera', year: '2026' },
 ]
 
@@ -210,11 +214,11 @@ export const t = {
       'Uso herramientas de IA (Claude, DeepSeek, OpenAI Codex) como apoyo al desarrollo; reviso y entiendo lo que integro.',
     ],
     stackTitle: 'Stack técnico',
-    stackSub: 'Tecnologías que aparecen en mis proyectos. No clasifico mi nivel con porcentajes: lo que ves en cada proyecto es lo que hice.',
+    stackSub: 'Tecnologías que aparecen en mis proyectos y certificaciones. No clasifico mi nivel con porcentajes: lo que ves en cada proyecto es lo que hice.',
     extraTitle: 'Conocimientos adicionales',
     aiTitle: 'Desarrollo asistido por IA',
     projectsTitle: 'Proyectos',
-    projectsSub: 'Proyectos en los que he aplicado mi stack tecnológico. Cada uno incluye su estado de avance y las herramientas reales utilizadas en su desarrollo.', // <-- Texto actualizado
+    projectsSub: 'Proyectos en los que he aplicado mi stack tecnológico. Cada uno incluye su estado de avance y las herramientas reales utilizadas en su desarrollo.',
     planned: 'Tecnologías previstas',
     tech: 'Tecnologías',
     expTitle: 'Experiencia',
@@ -246,11 +250,11 @@ export const t = {
       'I use AI tools (Claude, DeepSeek, OpenAI Codex) to assist development; I review and understand what I integrate.',
     ],
     stackTitle: 'Tech stack',
-    stackSub: "Technologies that appear in my projects. I don't rate my level with percentages: what you see in each project is what I did.",
+    stackSub: "Technologies that appear in my projects and certifications. I don't rate my level with percentages: what you see in each project is what I did.",
     extraTitle: 'Additional knowledge',
     aiTitle: 'AI-assisted development',
     projectsTitle: 'Projects',
-    projectsSub: 'Projects where I have applied my tech stack. Each one includes its progress status and the actual tools used in its development.', // <-- Texto actualizado
+    projectsSub: 'Projects where I have applied my tech stack. Each one includes its progress status and the actual tools used in its development.',
     planned: 'Planned technologies',
     tech: 'Technologies',
     expTitle: 'Experience',
