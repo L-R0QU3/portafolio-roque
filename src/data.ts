@@ -280,7 +280,7 @@ export const t3 = {
     nav: { about: 'Sobre mí', stack: 'Stack', projects: 'Proyectos', services: 'Servicios', education: 'Formación', experience: 'Experiencia', contact: 'Contacto' },
     cta: 'Contáctame', chip: 'RØQUE', h1a: 'Hola, soy RØQUE.', h1b: 'Desarrollador Full Stack.',
     sub: 'Técnico en Programación y Analista de Sistemas. Construyo aplicaciones web con React, Java y Spring Boot. Desarrollo soluciones web de alto impacto. Disponible para trabajar en modalidad remota.',
-    avail: 'Disponible · remoto',
+    avail: 'Disponible',
     aboutChip: 'SOBRE MÍ', aboutPre: 'Disponible para proyectos de', aboutAcc: 'desarrollo web', aboutBtn: 'Hablemos',
     stats: ['Estudiantes en talleres de informática (2024)', 'Proyectos en este portafolio', 'Certificaciones (2026)'],
     stackChip: 'STACK', workChip: 'MIS PROYECTOS', workTitle: 'Proyectos recientes',
