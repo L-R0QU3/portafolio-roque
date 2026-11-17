@@ -69,6 +69,7 @@ export const extra: Tech[] = [
   { name: 'Google Cloud', icon: 'devicon-googlecloud-plain' },
   { name: 'Angular', icon: 'devicon-angularjs-plain' },
   { name: 'SQL Server', icon: 'devicon-microsoftsqlserver-plain' },
+  { name: 'MongoDB', icon: 'devicon-mongodb-plain' }, // <-- Agregado aquí
   { name: 'CI/CD' },
 ]
 
@@ -213,7 +214,7 @@ export const t = {
     extraTitle: 'Conocimientos adicionales',
     aiTitle: 'Desarrollo asistido por IA',
     projectsTitle: 'Proyectos',
-    projectsSub: 'Con su estado real. "Tecnologías previstas" indica que el stack está definido pero el proyecto aún no está completo.',
+    projectsSub: 'Proyectos en los que he aplicado mi stack tecnológico. Cada uno incluye su estado de avance y las herramientas reales utilizadas en su desarrollo.', // <-- Texto actualizado
     planned: 'Tecnologías previstas',
     tech: 'Tecnologías',
     expTitle: 'Experiencia',
@@ -249,7 +250,7 @@ export const t = {
     extraTitle: 'Additional knowledge',
     aiTitle: 'AI-assisted development',
     projectsTitle: 'Projects',
-    projectsSub: 'With their real status. "Planned technologies" means the stack is defined but the project is not yet complete.',
+    projectsSub: 'Projects where I have applied my tech stack. Each one includes its progress status and the actual tools used in its development.', // <-- Texto actualizado
     planned: 'Planned technologies',
     tech: 'Technologies',
     expTitle: 'Experience',
