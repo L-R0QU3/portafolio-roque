@@ -144,7 +144,7 @@ export default function App() {
             <Reveal delay={0.1}>
               <span className="chip">{ux.aboutChip}</span>
               <h2 className="display mt-4 text-4xl leading-tight sm:text-5xl">
-                {lang === 'es' ? 'Disponible para desarrollar' : 'Available to build'} <Hl>{lang === 'es' ? 'soluciones' : 'solutions'}</Hl>
+                {ux.aboutPre} <Hl>{ux.aboutAcc}</Hl>
               </h2>
               <div className="muted mt-6 space-y-4 leading-relaxed">{tx.about.map((p) => <p key={p}>{p}</p>)}</div>
               <div className="mt-8 grid grid-cols-3 gap-3">

@@ -67,6 +67,8 @@ export const extra: Tech[] = [
   { name: 'Django', icon: 'devicon-django-plain', mono: true },
   { name: 'Firebase', icon: 'devicon-firebase-plain' },
   { name: 'Google Cloud', icon: 'devicon-googlecloud-plain' },
+  { name: 'Angular', icon: 'devicon-angularjs-plain' },
+  { name: 'SQL Server', icon: 'devicon-microsoftsqlserver-plain' },
   { name: 'CI/CD' },
 ]
 
@@ -280,8 +282,8 @@ export const t3 = {
     nav: { about: 'Sobre mí', stack: 'Stack', projects: 'Proyectos', services: 'Servicios', education: 'Formación', experience: 'Experiencia', contact: 'Contacto' },
     cta: 'Contáctame', chip: 'RØQUE', h1a: 'Hola, soy RØQUE.', h1b: 'Desarrollador Full Stack.',
     sub: 'Técnico en Programación y Analista de Sistemas. Construyo aplicaciones web con React, Java y Spring Boot. Desarrollo soluciones web de alto impacto. Disponible para trabajar en modalidad remota.',
-    avail: 'Disponible',
-    aboutChip: 'SOBRE MÍ', aboutPre: 'Disponible para proyectos de', aboutAcc: 'desarrollo web', aboutBtn: 'Hablemos',
+    avail: 'Disponible · remoto',
+    aboutChip: 'SOBRE MÍ', aboutPre: 'Disponible para desarrollar', aboutAcc: 'soluciones', aboutBtn: 'Hablemos',
     stats: ['Estudiantes en talleres de informática (2024)', 'Proyectos en este portafolio', 'Certificaciones (2026)'],
     stackChip: 'STACK', workChip: 'MIS PROYECTOS', workTitle: 'Proyectos recientes',
     servicesChip: 'SERVICIOS', servicesPre: 'Lo que puedo', servicesAcc: 'hacer por ti',
@@ -303,7 +305,7 @@ export const t3 = {
     cta: 'Contact me', chip: 'RØQUE', h1a: "Hi, I'm RØQUE.", h1b: 'Full Stack Developer.',
     sub: "Programming Technician and Systems Analyst. I build web applications with React, Java and Spring Boot. I'm looking for my first opportunity in development, remote.",
     avail: 'Available · remote',
-    aboutChip: 'ABOUT ME', aboutPre: 'Available for', aboutAcc: 'web development', aboutBtn: "Let's talk",
+    aboutChip: 'ABOUT ME', aboutPre: 'Available to build', aboutAcc: 'solutions', aboutBtn: "Let's talk",
     stats: ['Students in computer workshops (2024)', 'Projects in this portfolio', 'Certifications (2026)'],
     stackChip: 'STACK', workChip: 'MY WORK', workTitle: 'Recent projects',
     servicesChip: 'SERVICES', servicesPre: 'What I can', servicesAcc: 'do for you',
