@@ -9,7 +9,7 @@ import ContactForm from './ContactForm'
 const fallbackIcons: Record<string, typeof Server> = { Render: Server, 'REST APIs': Network, SQL: Database, 'CI/CD': Workflow }
 const serviceIcons = [Code2, LayoutTemplate, Wrench, GraduationCap]
 const serviceColors = ['var(--accent)', 'var(--indigo)', 'var(--coral)', 'var(--sky)']
-const AVATAR_SOURCES = ['/avatar.jpg', '/avatar.jpeg', '/avatar.png', '/avatar.webp', 'https://i.ibb.co/PvYwLn7j/image.png']
+const AVATAR_SOURCES = ['/avatar.jpg', '/avatar.jpeg', '/avatar.png', '/avatar.webp', 'https://photos.fife.usercontent.google.com/pw/AP1GczNcgphgbRK5HehTOt5XASiAwuU0bpgZYZJzyjz_nKLiA_--IiRsmI9b7A=w721-h965-s-no?authuser=0']
 
 function TechIcon({ tech, size = 22 }: { tech: Tech; size?: number }) {
   const Fallback = fallbackIcons[tech.name] ?? Code2
